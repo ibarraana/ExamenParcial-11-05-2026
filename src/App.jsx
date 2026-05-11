@@ -1,5 +1,5 @@
-import Opciones from "./data/opciones.json"
-import Viajes from "./data/viajes.json"
+import { opciones } from "./data/opciones.json"
+import { viajes } from "./data/viajes.json"
 
 import CuerpoMain from "./components/cuerpomain"
 import Header from "./components/header"
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header />
-      <CuerpoMain />
+      <CuerpoMain grilla={viajes} />
       <Footers />
     </>
   )
