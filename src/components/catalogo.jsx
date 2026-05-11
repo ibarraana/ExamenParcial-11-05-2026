@@ -4,7 +4,7 @@ function Catalogo({grilla}) {
         <div className="text-center">
             <h2>Destinos disponibles</h2>
 
-            <nav>
+            <nav className="flex flex-wrap justify-center gap-4">
                 {grilla.map((viajes) => (
                     <ul key={viajes.id}>
                         <li>{viajes.destino}</li>

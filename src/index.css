@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-mercadoyellow: #fff159;
-  --color-mercadoblue: #3483fa;
-  --color-mercadogreen: #00a650;
+  --color-fondo1: #0cd968;
+  --color-fondo2: #f19e0e;
+  --color-fondo3: #2f1fde;
 }
