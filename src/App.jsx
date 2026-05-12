@@ -1,4 +1,3 @@
-import { opciones } from "./data/opciones.json"
 import { viajes } from "./data/viajes.json"
 
 import CuerpoMain from "./components/cuerpomain"
