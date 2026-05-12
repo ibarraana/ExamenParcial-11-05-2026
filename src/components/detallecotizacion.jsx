@@ -14,24 +14,21 @@ function DetalleCotizacion({opciones, viajeActual}) {
                 <div >          
 
                     {opcion1.opciones.map((opcion2) => (
-                        <div key={opcion2} >
+                        <div key={opcion2}>
                             <p>{opcion2.nombre}</p>
-                            <p>{opcion2.incremento}</p>
-            
+                            <p>{opcion2.incremento}</p>            
                                 <ul>
                                     {opcion2.incluye.map((item, i) => (
-                                    <li key={i}>{item}</li>
-                                ))}
-                        </ul>
+                                        <li key={i}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            ))}
+                        </div>
                     </div>
-                    ))}
-          </div>
-        </div>
-      ))}  
+                ))}  
             </nav>
-        </div>
-           
-
+        </div>      
     )
 }
 
