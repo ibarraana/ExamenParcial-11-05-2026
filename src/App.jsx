@@ -1,5 +1,5 @@
 import { viajes } from "./data/viajes.json"
-import { opciones } from "./data/opciones.json"
+import opciones  from "./data/opciones.json"
 import { useState } from "react";
 
 import CuerpoMain from "./components/cuerpomain"
